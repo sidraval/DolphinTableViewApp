@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D197616519E1B4FC00794F26 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D197616419E1B4FC00794F26 /* AppDelegate.swift */; };
+		D197616719E1B4FC00794F26 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D197616619E1B4FC00794F26 /* ViewController.swift */; };
+		D197616A19E1B4FC00794F26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D197616819E1B4FC00794F26 /* Main.storyboard */; };
+		D197616C19E1B4FC00794F26 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D197616B19E1B4FC00794F26 /* Images.xcassets */; };
+		D197616F19E1B4FC00794F26 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D197616D19E1B4FC00794F26 /* LaunchScreen.xib */; };
+		D197617B19E1B4FC00794F26 /* DolphinTableViewControllerAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D197617A19E1B4FC00794F26 /* DolphinTableViewControllerAppTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D197617519E1B4FC00794F26 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D197615719E1B4FC00794F26 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D197615E19E1B4FC00794F26;
+			remoteInfo = DolphinTableViewControllerApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D197615F19E1B4FC00794F26 /* DolphinTableViewControllerApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DolphinTableViewControllerApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D197616319E1B4FC00794F26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D197616419E1B4FC00794F26 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D197616619E1B4FC00794F26 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D197616919E1B4FC00794F26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D197616B19E1B4FC00794F26 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D197616E19E1B4FC00794F26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D197617419E1B4FC00794F26 /* DolphinTableViewControllerAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DolphinTableViewControllerAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D197617919E1B4FC00794F26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D197617A19E1B4FC00794F26 /* DolphinTableViewControllerAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DolphinTableViewControllerAppTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D197615C19E1B4FC00794F26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D197617119E1B4FC00794F26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D197615619E1B4FC00794F26 = {
+			isa = PBXGroup;
+			children = (
+				D197616119E1B4FC00794F26 /* DolphinTableViewControllerApp */,
+				D197617719E1B4FC00794F26 /* DolphinTableViewControllerAppTests */,
+				D197616019E1B4FC00794F26 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D197616019E1B4FC00794F26 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D197615F19E1B4FC00794F26 /* DolphinTableViewControllerApp.app */,
+				D197617419E1B4FC00794F26 /* DolphinTableViewControllerAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D197616119E1B4FC00794F26 /* DolphinTableViewControllerApp */ = {
+			isa = PBXGroup;
+			children = (
+				D197616419E1B4FC00794F26 /* AppDelegate.swift */,
+				D197616619E1B4FC00794F26 /* ViewController.swift */,
+				D197616819E1B4FC00794F26 /* Main.storyboard */,
+				D197616B19E1B4FC00794F26 /* Images.xcassets */,
+				D197616D19E1B4FC00794F26 /* LaunchScreen.xib */,
+				D197616219E1B4FC00794F26 /* Supporting Files */,
+			);
+			path = DolphinTableViewControllerApp;
+			sourceTree = "<group>";
+		};
+		D197616219E1B4FC00794F26 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D197616319E1B4FC00794F26 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D197617719E1B4FC00794F26 /* DolphinTableViewControllerAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				D197617A19E1B4FC00794F26 /* DolphinTableViewControllerAppTests.swift */,
+				D197617819E1B4FC00794F26 /* Supporting Files */,
+			);
+			path = DolphinTableViewControllerAppTests;
+			sourceTree = "<group>";
+		};
+		D197617819E1B4FC00794F26 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D197617919E1B4FC00794F26 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D197615E19E1B4FC00794F26 /* DolphinTableViewControllerApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D197617E19E1B4FC00794F26 /* Build configuration list for PBXNativeTarget "DolphinTableViewControllerApp" */;
+			buildPhases = (
+				D197615B19E1B4FC00794F26 /* Sources */,
+				D197615C19E1B4FC00794F26 /* Frameworks */,
+				D197615D19E1B4FC00794F26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DolphinTableViewControllerApp;
+			productName = DolphinTableViewControllerApp;
+			productReference = D197615F19E1B4FC00794F26 /* DolphinTableViewControllerApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D197617319E1B4FC00794F26 /* DolphinTableViewControllerAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D197618119E1B4FC00794F26 /* Build configuration list for PBXNativeTarget "DolphinTableViewControllerAppTests" */;
+			buildPhases = (
+				D197617019E1B4FC00794F26 /* Sources */,
+				D197617119E1B4FC00794F26 /* Frameworks */,
+				D197617219E1B4FC00794F26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D197617619E1B4FC00794F26 /* PBXTargetDependency */,
+			);
+			name = DolphinTableViewControllerAppTests;
+			productName = DolphinTableViewControllerAppTests;
+			productReference = D197617419E1B4FC00794F26 /* DolphinTableViewControllerAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D197615719E1B4FC00794F26 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = sidraval;
+				TargetAttributes = {
+					D197615E19E1B4FC00794F26 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					D197617319E1B4FC00794F26 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = D197615E19E1B4FC00794F26;
+					};
+				};
+			};
+			buildConfigurationList = D197615A19E1B4FC00794F26 /* Build configuration list for PBXProject "DolphinTableViewControllerApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D197615619E1B4FC00794F26;
+			productRefGroup = D197616019E1B4FC00794F26 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D197615E19E1B4FC00794F26 /* DolphinTableViewControllerApp */,
+				D197617319E1B4FC00794F26 /* DolphinTableViewControllerAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D197615D19E1B4FC00794F26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D197616A19E1B4FC00794F26 /* Main.storyboard in Resources */,
+				D197616F19E1B4FC00794F26 /* LaunchScreen.xib in Resources */,
+				D197616C19E1B4FC00794F26 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D197617219E1B4FC00794F26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D197615B19E1B4FC00794F26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D197616719E1B4FC00794F26 /* ViewController.swift in Sources */,
+				D197616519E1B4FC00794F26 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D197617019E1B4FC00794F26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D197617B19E1B4FC00794F26 /* DolphinTableViewControllerAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D197617619E1B4FC00794F26 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D197615E19E1B4FC00794F26 /* DolphinTableViewControllerApp */;
+			targetProxy = D197617519E1B4FC00794F26 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D197616819E1B4FC00794F26 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D197616919E1B4FC00794F26 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D197616D19E1B4FC00794F26 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D197616E19E1B4FC00794F26 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D197617C19E1B4FC00794F26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D197617D19E1B4FC00794F26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D197617F19E1B4FC00794F26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DolphinTableViewControllerApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D197618019E1B4FC00794F26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DolphinTableViewControllerApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D197618219E1B4FC00794F26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DolphinTableViewControllerAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DolphinTableViewControllerApp.app/DolphinTableViewControllerApp";
+			};
+			name = Debug;
+		};
+		D197618319E1B4FC00794F26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DolphinTableViewControllerAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DolphinTableViewControllerApp.app/DolphinTableViewControllerApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D197615A19E1B4FC00794F26 /* Build configuration list for PBXProject "DolphinTableViewControllerApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D197617C19E1B4FC00794F26 /* Debug */,
+				D197617D19E1B4FC00794F26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D197617E19E1B4FC00794F26 /* Build configuration list for PBXNativeTarget "DolphinTableViewControllerApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D197617F19E1B4FC00794F26 /* Debug */,
+				D197618019E1B4FC00794F26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D197618119E1B4FC00794F26 /* Build configuration list for PBXNativeTarget "DolphinTableViewControllerAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D197618219E1B4FC00794F26 /* Debug */,
+				D197618319E1B4FC00794F26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D197615719E1B4FC00794F26 /* Project object */;
+}
