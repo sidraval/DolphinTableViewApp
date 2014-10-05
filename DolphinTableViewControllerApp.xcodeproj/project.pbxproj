@@ -12,7 +12,13 @@
 		D197616A19E1B4FC00794F26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D197616819E1B4FC00794F26 /* Main.storyboard */; };
 		D197616C19E1B4FC00794F26 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D197616B19E1B4FC00794F26 /* Images.xcassets */; };
 		D197616F19E1B4FC00794F26 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D197616D19E1B4FC00794F26 /* LaunchScreen.xib */; };
-		D197617B19E1B4FC00794F26 /* DolphinTableViewControllerAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D197617A19E1B4FC00794F26 /* DolphinTableViewControllerAppTests.swift */; };
+		D19761A319E1B5D300794F26 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D197619C19E1B5C700794F26 /* Nimble.framework */; };
+		D19761A419E1B5D300794F26 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D197618D19E1B5B800794F26 /* Quick.framework */; };
+		D19761A719E1B5F600794F26 /* DolphinTableViewControllerSpecs.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19761A619E1B5F600794F26 /* DolphinTableViewControllerSpecs.swift */; };
+		D19761A819E1B61900794F26 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D197616419E1B4FC00794F26 /* AppDelegate.swift */; };
+		D19761A919E1B61C00794F26 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D197616619E1B4FC00794F26 /* ViewController.swift */; };
+		D19761AA19E1B62000794F26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D197616819E1B4FC00794F26 /* Main.storyboard */; };
+		D19761AB19E1B62700794F26 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D197616D19E1B4FC00794F26 /* LaunchScreen.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -22,6 +28,62 @@
 			proxyType = 1;
 			remoteGlobalIDString = D197615E19E1B4FC00794F26;
 			remoteInfo = DolphinTableViewControllerApp;
+		};
+		D197618C19E1B5B800794F26 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D197618419E1B5B800794F26 /* Quick.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DAEB6B8E1943873100289F44;
+			remoteInfo = Quick;
+		};
+		D197618E19E1B5B800794F26 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D197618419E1B5B800794F26 /* Quick.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DAEB6B991943873100289F44;
+			remoteInfo = QuickTests;
+		};
+		D197619019E1B5B800794F26 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D197618419E1B5B800794F26 /* Quick.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5A5D117C19473F2100F6D13D;
+			remoteInfo = "Quick-iOS";
+		};
+		D197619219E1B5B800794F26 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D197618419E1B5B800794F26 /* Quick.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5A5D118619473F2100F6D13D;
+			remoteInfo = "Quick-iOSTests";
+		};
+		D197619B19E1B5C700794F26 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D197619419E1B5C700794F26 /* Nimble.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1F1A74291940169200FFFC47;
+			remoteInfo = "Nimble-iOS";
+		};
+		D197619D19E1B5C700794F26 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D197619419E1B5C700794F26 /* Nimble.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1F1A74341940169200FFFC47;
+			remoteInfo = "Nimble-iOSTests";
+		};
+		D197619F19E1B5C700794F26 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D197619419E1B5C700794F26 /* Nimble.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1F925EAD195C0D6300ED456B;
+			remoteInfo = "Nimble-OSX";
+		};
+		D19761A119E1B5C700794F26 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D197619419E1B5C700794F26 /* Nimble.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1F925EB7195C0D6300ED456B;
+			remoteInfo = "Nimble-OSXTests";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -35,7 +97,10 @@
 		D197616E19E1B4FC00794F26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		D197617419E1B4FC00794F26 /* DolphinTableViewControllerAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DolphinTableViewControllerAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D197617919E1B4FC00794F26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D197617A19E1B4FC00794F26 /* DolphinTableViewControllerAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DolphinTableViewControllerAppTests.swift; sourceTree = "<group>"; };
+		D197618419E1B5B800794F26 /* Quick.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Quick.xcodeproj; path = Vendor/Quick/Quick/Quick.xcodeproj; sourceTree = SOURCE_ROOT; };
+		D197619419E1B5C700794F26 /* Nimble.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Nimble.xcodeproj; path = Vendor/Nimble/Nimble.xcodeproj; sourceTree = SOURCE_ROOT; };
+		D19761A519E1B5F600794F26 /* DolphinTableViewControllerAppTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DolphinTableViewControllerAppTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		D19761A619E1B5F600794F26 /* DolphinTableViewControllerSpecs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DolphinTableViewControllerSpecs.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +115,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D19761A319E1B5D300794F26 /* Nimble.framework in Frameworks */,
+				D19761A419E1B5D300794F26 /* Quick.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,8 +165,11 @@
 		D197617719E1B4FC00794F26 /* DolphinTableViewControllerAppTests */ = {
 			isa = PBXGroup;
 			children = (
-				D197617A19E1B4FC00794F26 /* DolphinTableViewControllerAppTests.swift */,
+				D197619419E1B5C700794F26 /* Nimble.xcodeproj */,
+				D197618419E1B5B800794F26 /* Quick.xcodeproj */,
 				D197617819E1B4FC00794F26 /* Supporting Files */,
+				D19761A619E1B5F600794F26 /* DolphinTableViewControllerSpecs.swift */,
+				D19761A519E1B5F600794F26 /* DolphinTableViewControllerAppTests-Bridging-Header.h */,
 			);
 			path = DolphinTableViewControllerAppTests;
 			sourceTree = "<group>";
@@ -110,6 +180,28 @@
 				D197617919E1B4FC00794F26 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D197618519E1B5B800794F26 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D197618D19E1B5B800794F26 /* Quick.framework */,
+				D197618F19E1B5B800794F26 /* QuickTests.xctest */,
+				D197619119E1B5B800794F26 /* Quick.framework */,
+				D197619319E1B5B800794F26 /* Quick-iOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D197619519E1B5C700794F26 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D197619C19E1B5C700794F26 /* Nimble.framework */,
+				D197619E19E1B5C700794F26 /* NimbleTests.xctest */,
+				D19761A019E1B5C700794F26 /* Nimble.framework */,
+				D19761A219E1B5C700794F26 /* Nimble-OSXTests.xctest */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,6 +271,16 @@
 			mainGroup = D197615619E1B4FC00794F26;
 			productRefGroup = D197616019E1B4FC00794F26 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = D197619519E1B5C700794F26 /* Products */;
+					ProjectRef = D197619419E1B5C700794F26 /* Nimble.xcodeproj */;
+				},
+				{
+					ProductGroup = D197618519E1B5B800794F26 /* Products */;
+					ProjectRef = D197618419E1B5B800794F26 /* Quick.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				D197615E19E1B4FC00794F26 /* DolphinTableViewControllerApp */,
@@ -186,6 +288,65 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		D197618D19E1B5B800794F26 /* Quick.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Quick.framework;
+			remoteRef = D197618C19E1B5B800794F26 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D197618F19E1B5B800794F26 /* QuickTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = QuickTests.xctest;
+			remoteRef = D197618E19E1B5B800794F26 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D197619119E1B5B800794F26 /* Quick.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Quick.framework;
+			remoteRef = D197619019E1B5B800794F26 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D197619319E1B5B800794F26 /* Quick-iOSTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Quick-iOSTests.xctest";
+			remoteRef = D197619219E1B5B800794F26 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D197619C19E1B5C700794F26 /* Nimble.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Nimble.framework;
+			remoteRef = D197619B19E1B5C700794F26 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D197619E19E1B5C700794F26 /* NimbleTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = NimbleTests.xctest;
+			remoteRef = D197619D19E1B5C700794F26 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D19761A019E1B5C700794F26 /* Nimble.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Nimble.framework;
+			remoteRef = D197619F19E1B5C700794F26 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D19761A219E1B5C700794F26 /* Nimble-OSXTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Nimble-OSXTests.xctest";
+			remoteRef = D19761A119E1B5C700794F26 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		D197615D19E1B4FC00794F26 /* Resources */ = {
@@ -202,6 +363,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D19761AB19E1B62700794F26 /* LaunchScreen.xib in Resources */,
+				D19761AA19E1B62000794F26 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,7 +384,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D197617B19E1B4FC00794F26 /* DolphinTableViewControllerAppTests.swift in Sources */,
+				D19761A919E1B61C00794F26 /* ViewController.swift in Sources */,
+				D19761A819E1B61900794F26 /* AppDelegate.swift in Sources */,
+				D19761A719E1B5F600794F26 /* DolphinTableViewControllerSpecs.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,6 +521,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -367,6 +533,8 @@
 				INFOPLIST_FILE = DolphinTableViewControllerAppTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DolphinTableViewControllerAppTests/DolphinTableViewControllerAppTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DolphinTableViewControllerApp.app/DolphinTableViewControllerApp";
 			};
 			name = Debug;
@@ -375,6 +543,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -382,6 +551,7 @@
 				INFOPLIST_FILE = DolphinTableViewControllerAppTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DolphinTableViewControllerAppTests/DolphinTableViewControllerAppTests-Bridging-Header.h";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DolphinTableViewControllerApp.app/DolphinTableViewControllerApp";
 			};
 			name = Release;
